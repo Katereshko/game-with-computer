@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with me!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>Hello! This is me, your computer.</h1>
+        <h2>Wanna play with me?</h2>
+        <h3>Pick one of the games below</h3>
+    </div>
+    <div class="main">
+        <div class="eyes">
+            <img id="eyes" src="eyes1.svg">
+        </div>
+        <div class="games">
+            <div class="game" id="game1">
+                <h4>What number I got in my mind?</h4>
+                <h4>Type a number from 1 to 20</h4>
+                <input type="text" placeholder="type a number..." id="guess1">
+                <button class="btn" id="btnGame1">PLAY</button>
+            </div>
+            <div class="game" id="game2">
+                <h4>What number I got in my mind?</h4>
+                <h4>Type a number from 1 to 100</h4>
+                <input type="text" placeholder="type a number..." id="guess2">
+                <button class="btn" id="btnGame2">PLAY</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
