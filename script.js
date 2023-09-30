@@ -1,4 +1,4 @@
-const eyes = ["eyes1.svg", "eyes2.svg", "eyes3.svg", "eyes4.svg"];
+const eyes = ["eyes/eyes1.svg", "eyes/eyes2.svg", "eyes/eyes3.svg", "eyes/eyes4.svg"];
 
 let i = 0;
 
