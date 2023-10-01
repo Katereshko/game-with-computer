@@ -22,6 +22,15 @@ Created by Ekaterina Tereshko as an individual project during the coding program
 
 ### Logic side
 
+The constants represent the following items: 
+input1 - an input field where the user should enter the suggested number for the first game, 
+buttonGame1 - the button that the user should click in order to start the game or enter the next suggested number,
+answer1 - a random number from 1 to 20 generated using Math.random
+
+input2, buttonGame2, answer2 - similar constants for the second game accordingly, given that the numbers range in second game is from 1 to 100.
+
+When the user clicks the buttonGame1, the inputNew1 function is called. The function allows to receive the constant userNumber1, the number currently entered by the user in the input field. Before checking if the number is guessed, the functions also checks if the number  meets the range requirement (is not less than 1 and not higher than 20 for the first game or 100 for the second game). In case the requirement is not met, the alert 
+
 When user chooses one of 3 main functions (play, feed, sleep), check for the impact of the action on the pet (checkImpactDeath()) > generate random numbers via (get.RandomValues()), check how adding them to the current values affects the pet (does it die or not). Death in this game is defined as at least one of the pet values reaching 0.
 
 If checkImpactDeath() returns true:
