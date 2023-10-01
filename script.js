@@ -16,8 +16,7 @@ const input1 = document.querySelector('#guess1');
 const buttonGame1 = document.querySelector('#btnGame1');
 const answer1 = Math.floor(Math.random()*20) + 1;
 
-const inputNew1 = document.getElementById("guess1");
-inputNew1.addEventListener("keyup", function(event) {
+input1.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
         document.getElementById("btnGame1").click();
     }
@@ -62,7 +61,6 @@ function playGame1(){
                 imageHeight: 200,
             })
         }
- 
     }
 
 }
@@ -71,9 +69,7 @@ const input2 = document.querySelector('#guess2');
 const buttonGame2 = document.querySelector('#btnGame2');
 const answer2 = Math.floor(Math.random()*100) + 1;
 
-//используем это вместо закомментированного блока кода выше, он не работает
-const inputNew2 = document.getElementById("guess2");
-inputNew2.addEventListener("keyup", function(event) {
+input2.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
         document.getElementById("btnGame2").click();
     }
