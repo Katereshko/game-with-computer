@@ -1,6 +1,8 @@
 # game-with-computer
 
-My individual coding project
+My individual coding project.  
+Currently hosted on Netlify:  
+https://game-with-computer-1-100.netlify.app/
 
 ## File structure
 script.js - the main logic file  
